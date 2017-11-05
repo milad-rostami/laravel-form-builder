@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Codeilia\\LaravelFormBuilderProvider"
+                "Codeilia\\LaravelFormBuilderProvider\\"
             ],
             "aliases": {
                 "FormBuilder": "Codeilia\\LaravelFormBuilderFacade"
