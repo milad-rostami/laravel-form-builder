@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "codeilia/laravel-restful-api": "1.*"
+        "Codeilia/laravel-restful-api": "1.*"
     },
     "autoload": {
         "psr-4": {
