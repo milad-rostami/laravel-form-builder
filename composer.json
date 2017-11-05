@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Codeilia\\LaravelFormBuilderProvider" : "src/"
+            "Codeilia\\LaravelFormBuilderProvider\\" : "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Codeilia\\LaravelFormBuilderProvider\\"
+                "Codeilia\\LaravelFormBuilderProvider"
             ],
             "aliases": {
                 "FormBuilder": "Codeilia\\LaravelFormBuilderFacade"
