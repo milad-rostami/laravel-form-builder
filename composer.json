@@ -1,0 +1,30 @@
+{
+    "name": "codeilia/laravel-form-builder",
+    "description": "a package for generating forms dynamically from user end",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Milad Rostami",
+            "email": "milad.rostami.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "codeilia/laravel-restful-api": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeilia\\LaravelFormBuilderProvider" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codeilia\\LaravelFormBuilderProvider"
+            ],
+            "aliases": {
+                "FormBuilder": "Codeilia\\LaravelFormBuilderFacade"
+            }
+        }
+    },
+}
